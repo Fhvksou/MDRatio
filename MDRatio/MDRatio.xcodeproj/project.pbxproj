@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A35D2D91A9E45CBB63482DB /* libPods-MDRatio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC8F90983569D150A7C54D1 /* libPods-MDRatio.a */; };
+		7FAE61791F8E30330063394D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE61781F8E30330063394D /* AppDelegate.m */; };
+		7FAE617C1F8E30330063394D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE617B1F8E30330063394D /* ViewController.m */; };
+		7FAE617F1F8E30330063394D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE617D1F8E30330063394D /* Main.storyboard */; };
+		7FAE61811F8E30330063394D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE61801F8E30330063394D /* Assets.xcassets */; };
+		7FAE61841F8E30330063394D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE61821F8E30330063394D /* LaunchScreen.storyboard */; };
+		7FAE61871F8E30330063394D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE61861F8E30330063394D /* main.m */; };
+		7FAE61911F8E30340063394D /* MDRatioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE61901F8E30340063394D /* MDRatioTests.m */; };
+		7FAE619C1F8E30340063394D /* MDRatioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE619B1F8E30340063394D /* MDRatioUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FAE618D1F8E30340063394D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FAE616C1F8E30330063394D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FAE61731F8E30330063394D;
+			remoteInfo = MDRatio;
+		};
+		7FAE61981F8E30340063394D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FAE616C1F8E30330063394D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FAE61731F8E30330063394D;
+			remoteInfo = MDRatio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FC8F90983569D150A7C54D1 /* libPods-MDRatio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MDRatio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAE61741F8E30330063394D /* MDRatio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDRatio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAE61771F8E30330063394D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FAE61781F8E30330063394D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FAE617A1F8E30330063394D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FAE617B1F8E30330063394D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FAE617E1F8E30330063394D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FAE61801F8E30330063394D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FAE61831F8E30330063394D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FAE61851F8E30330063394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FAE61861F8E30330063394D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FAE618C1F8E30340063394D /* MDRatioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDRatioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAE61901F8E30340063394D /* MDRatioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDRatioTests.m; sourceTree = "<group>"; };
+		7FAE61921F8E30340063394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FAE61971F8E30340063394D /* MDRatioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDRatioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAE619B1F8E30340063394D /* MDRatioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDRatioUITests.m; sourceTree = "<group>"; };
+		7FAE619D1F8E30340063394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3F3042B8D6EDD6445AA9081 /* Pods-MDRatio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDRatio.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDRatio/Pods-MDRatio.release.xcconfig"; sourceTree = "<group>"; };
+		E2D29005E1BB766601E20E70 /* Pods-MDRatio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDRatio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDRatio/Pods-MDRatio.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FAE61711F8E30330063394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A35D2D91A9E45CBB63482DB /* libPods-MDRatio.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE61891F8E30340063394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE61941F8E30340063394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F25266DA190651DE00FA5B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FC8F90983569D150A7C54D1 /* libPods-MDRatio.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FAE616B1F8E30330063394D = {
+			isa = PBXGroup;
+			children = (
+				7FAE61761F8E30330063394D /* MDRatio */,
+				7FAE618F1F8E30340063394D /* MDRatioTests */,
+				7FAE619A1F8E30340063394D /* MDRatioUITests */,
+				7FAE61751F8E30330063394D /* Products */,
+				A2725CF62096BDA88980D7A6 /* Pods */,
+				5F25266DA190651DE00FA5B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7FAE61751F8E30330063394D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE61741F8E30330063394D /* MDRatio.app */,
+				7FAE618C1F8E30340063394D /* MDRatioTests.xctest */,
+				7FAE61971F8E30340063394D /* MDRatioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FAE61761F8E30330063394D /* MDRatio */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE61A91F8E334E0063394D /* PublicView */,
+				7FAE61AA1F8E334E0063394D /* Resources */,
+				7FAE61AB1F8E334F0063394D /* NetWork */,
+				7FAE61AD1F8E334F0063394D /* Singleton */,
+				7FAE61AC1F8E334F0063394D /* Modules */,
+				7FAE61AE1F8E33500063394D /* Utils */,
+				7FAE61771F8E30330063394D /* AppDelegate.h */,
+				7FAE61781F8E30330063394D /* AppDelegate.m */,
+				7FAE617A1F8E30330063394D /* ViewController.h */,
+				7FAE617B1F8E30330063394D /* ViewController.m */,
+				7FAE617D1F8E30330063394D /* Main.storyboard */,
+				7FAE61801F8E30330063394D /* Assets.xcassets */,
+				7FAE61821F8E30330063394D /* LaunchScreen.storyboard */,
+				7FAE61851F8E30330063394D /* Info.plist */,
+				7FAE61861F8E30330063394D /* main.m */,
+			);
+			path = MDRatio;
+			sourceTree = "<group>";
+		};
+		7FAE618F1F8E30340063394D /* MDRatioTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE61901F8E30340063394D /* MDRatioTests.m */,
+				7FAE61921F8E30340063394D /* Info.plist */,
+			);
+			path = MDRatioTests;
+			sourceTree = "<group>";
+		};
+		7FAE619A1F8E30340063394D /* MDRatioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE619B1F8E30340063394D /* MDRatioUITests.m */,
+				7FAE619D1F8E30340063394D /* Info.plist */,
+			);
+			path = MDRatioUITests;
+			sourceTree = "<group>";
+		};
+		7FAE61A91F8E334E0063394D /* PublicView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PublicView;
+			sourceTree = "<group>";
+		};
+		7FAE61AA1F8E334E0063394D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7FAE61AB1F8E334F0063394D /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		7FAE61AC1F8E334F0063394D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7FAE61AD1F8E334F0063394D /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		7FAE61AE1F8E33500063394D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A2725CF62096BDA88980D7A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2D29005E1BB766601E20E70 /* Pods-MDRatio.debug.xcconfig */,
+				C3F3042B8D6EDD6445AA9081 /* Pods-MDRatio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FAE61731F8E30330063394D /* MDRatio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAE61A01F8E30340063394D /* Build configuration list for PBXNativeTarget "MDRatio" */;
+			buildPhases = (
+				D8E82D55E1A12E11B6226E0C /* [CP] Check Pods Manifest.lock */,
+				7FAE61701F8E30330063394D /* Sources */,
+				7FAE61711F8E30330063394D /* Frameworks */,
+				7FAE61721F8E30330063394D /* Resources */,
+				90C6F5758FE2799A66E7132F /* [CP] Embed Pods Frameworks */,
+				3FC278D38724366348816529 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDRatio;
+			productName = MDRatio;
+			productReference = 7FAE61741F8E30330063394D /* MDRatio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FAE618B1F8E30340063394D /* MDRatioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAE61A31F8E30340063394D /* Build configuration list for PBXNativeTarget "MDRatioTests" */;
+			buildPhases = (
+				7FAE61881F8E30340063394D /* Sources */,
+				7FAE61891F8E30340063394D /* Frameworks */,
+				7FAE618A1F8E30340063394D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAE618E1F8E30340063394D /* PBXTargetDependency */,
+			);
+			name = MDRatioTests;
+			productName = MDRatioTests;
+			productReference = 7FAE618C1F8E30340063394D /* MDRatioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FAE61961F8E30340063394D /* MDRatioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAE61A61F8E30340063394D /* Build configuration list for PBXNativeTarget "MDRatioUITests" */;
+			buildPhases = (
+				7FAE61931F8E30340063394D /* Sources */,
+				7FAE61941F8E30340063394D /* Frameworks */,
+				7FAE61951F8E30340063394D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAE61991F8E30340063394D /* PBXTargetDependency */,
+			);
+			name = MDRatioUITests;
+			productName = MDRatioUITests;
+			productReference = 7FAE61971F8E30340063394D /* MDRatioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FAE616C1F8E30330063394D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = fhkvsou;
+				TargetAttributes = {
+					7FAE61731F8E30330063394D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					7FAE618B1F8E30340063394D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FAE61731F8E30330063394D;
+					};
+					7FAE61961F8E30340063394D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FAE61731F8E30330063394D;
+					};
+				};
+			};
+			buildConfigurationList = 7FAE616F1F8E30330063394D /* Build configuration list for PBXProject "MDRatio" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FAE616B1F8E30330063394D;
+			productRefGroup = 7FAE61751F8E30330063394D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FAE61731F8E30330063394D /* MDRatio */,
+				7FAE618B1F8E30340063394D /* MDRatioTests */,
+				7FAE61961F8E30340063394D /* MDRatioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FAE61721F8E30330063394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE61841F8E30330063394D /* LaunchScreen.storyboard in Resources */,
+				7FAE61811F8E30330063394D /* Assets.xcassets in Resources */,
+				7FAE617F1F8E30330063394D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE618A1F8E30340063394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE61951F8E30340063394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FC278D38724366348816529 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDRatio/Pods-MDRatio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90C6F5758FE2799A66E7132F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDRatio/Pods-MDRatio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E82D55E1A12E11B6226E0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FAE61701F8E30330063394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE617C1F8E30330063394D /* ViewController.m in Sources */,
+				7FAE61871F8E30330063394D /* main.m in Sources */,
+				7FAE61791F8E30330063394D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE61881F8E30340063394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE61911F8E30340063394D /* MDRatioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE61931F8E30340063394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE619C1F8E30340063394D /* MDRatioUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FAE618E1F8E30340063394D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FAE61731F8E30330063394D /* MDRatio */;
+			targetProxy = 7FAE618D1F8E30340063394D /* PBXContainerItemProxy */;
+		};
+		7FAE61991F8E30340063394D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FAE61731F8E30330063394D /* MDRatio */;
+			targetProxy = 7FAE61981F8E30340063394D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FAE617D1F8E30330063394D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAE617E1F8E30330063394D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FAE61821F8E30330063394D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAE61831F8E30330063394D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FAE619E1F8E30340063394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FAE619F1F8E30340063394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FAE61A11F8E30340063394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D29005E1BB766601E20E70 /* Pods-MDRatio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MDRatio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simply.MDRatio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FAE61A21F8E30340063394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F3042B8D6EDD6445AA9081 /* Pods-MDRatio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MDRatio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simply.MDRatio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FAE61A41F8E30340063394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MDRatioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simply.MDRatioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDRatio.app/MDRatio";
+			};
+			name = Debug;
+		};
+		7FAE61A51F8E30340063394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MDRatioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simply.MDRatioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDRatio.app/MDRatio";
+			};
+			name = Release;
+		};
+		7FAE61A71F8E30340063394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MDRatioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simply.MDRatioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MDRatio;
+			};
+			name = Debug;
+		};
+		7FAE61A81F8E30340063394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MDRatioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simply.MDRatioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MDRatio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FAE616F1F8E30330063394D /* Build configuration list for PBXProject "MDRatio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAE619E1F8E30340063394D /* Debug */,
+				7FAE619F1F8E30340063394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAE61A01F8E30340063394D /* Build configuration list for PBXNativeTarget "MDRatio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAE61A11F8E30340063394D /* Debug */,
+				7FAE61A21F8E30340063394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAE61A31F8E30340063394D /* Build configuration list for PBXNativeTarget "MDRatioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAE61A41F8E30340063394D /* Debug */,
+				7FAE61A51F8E30340063394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAE61A61F8E30340063394D /* Build configuration list for PBXNativeTarget "MDRatioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAE61A71F8E30340063394D /* Debug */,
+				7FAE61A81F8E30340063394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FAE616C1F8E30330063394D /* Project object */;
+}
