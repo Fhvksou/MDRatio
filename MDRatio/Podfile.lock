@@ -15,29 +15,23 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - jastor (0.2.1)
-  - ReactiveCocoa (2.5):
-    - ReactiveCocoa/UI (= 2.5)
-  - ReactiveCocoa/Core (2.5):
-    - ReactiveCocoa/no-arc
-  - ReactiveCocoa/no-arc (2.5)
-  - ReactiveCocoa/UI (2.5):
-    - ReactiveCocoa/Core
-  - SDWebImage (4.1.0):
-    - SDWebImage/Core (= 4.1.0)
-  - SDWebImage/Core (4.1.0)
+  - MJRefresh (3.1.14)
+  - SDWebImage (4.1.2):
+    - SDWebImage/Core (= 4.1.2)
+  - SDWebImage/Core (4.1.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - jastor (~> 0.2.1)
-  - ReactiveCocoa (~> 2.5)
-  - SDWebImage (~> 4.1.0)
+  - MJRefresh (~> 3.1.12)
+  - SDWebImage (~> 4.1.2)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   jastor: fe9ff71f4b683698253d6a0d9a2561987fd9aff3
-  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+  MJRefresh: 6642e35b3227a5447b9fd5e17c552c90196c9859
+  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
 
-PODFILE CHECKSUM: af3f02adcb26c7d9bacb4e42fcaabd1d8c060fb7
+PODFILE CHECKSUM: c12eebb9b11996fe3245b22433f20d9258247329
 
 COCOAPODS: 1.1.1

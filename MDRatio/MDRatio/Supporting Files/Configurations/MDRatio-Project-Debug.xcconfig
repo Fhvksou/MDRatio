@@ -1,0 +1,12 @@
+//
+//  MDRatio-Project-Debug.xcconfig
+//  MDRatio
+//
+//  Created by fhkvsou on 2017/10/12.
+//  Copyright © 2017年 fhkvsou. All rights reserved.
+//
+
+#include "Pods/Target Support Files/Pods-MDRatio/Pods-MDRatio.debug.xcconfig"
+MDS_SERVER_ADDRESS = http:/$()/47.94.196.195:8083/
+
+

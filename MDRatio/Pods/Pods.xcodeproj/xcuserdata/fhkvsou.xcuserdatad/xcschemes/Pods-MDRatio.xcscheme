@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F80C62BA879A63097FE6E2297EDE6F7D'
+               BlueprintIdentifier = '18465E7DDCB30E841E60858E1FBBFDD1'
                BlueprintName = 'Pods-MDRatio'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-MDRatio.a'>
